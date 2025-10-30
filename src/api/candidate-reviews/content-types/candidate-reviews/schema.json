@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "candidates_reviews",
+  "info": {
+    "singularName": "candidate-reviews",
+    "pluralName": "candidates-reviews",
+    "displayName": "Candidate reviews"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Review": {
+      "type": "blocks"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

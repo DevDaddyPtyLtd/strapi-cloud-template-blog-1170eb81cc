@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "HomeHero"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Heading": {
+      "type": "string"
+    },
+    "HeadingDescription": {
+      "type": "text"
+    },
+    "heading2": {
+      "type": "string"
+    },
+    "JobsButton": {
+      "type": "string"
+    },
+    "ContactButton": {
+      "type": "string"
+    },
+    "CTA": {
+      "type": "string"
+    },
+    "info": {
+      "type": "dynamiczone",
+      "components": [
+        "shared.slider",
+        "shared.rich-text"
+      ]
+    }
+  }
+}
